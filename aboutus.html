@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lotus Bliss Thai Spa | About Us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body class="bg-blue-900">
+    <!--Navbar-->
+    <nav class="navbar bg-lime-50 mx-auto p-3">
+        <div class="flex items-center justify-between">
+            <!--Logo-->
+            <a href="index.html" class="text-pink-600 font-extrabold">Lotus Bliss Thai Spa</a>
+            <!--Menu items-->
+            <div class="md:flex hidden space-x-3">
+                <a href="index.html" class="font-bold text-gray-600 hover:text-gray-900">Home</a>
+                <a href="aboutus.html" class="font-bold text-gray-600 hover:text-gray-900">About Us</a>
+                <a href="massage.html" class="font-bold text-gray-600 hover:text-gray-900">Massage</a>
+                <a href="locations.html" class="font-bold text-gray-600 hover:text-gray-900">Locations</a>
+                <a href="pricing.html" class="font-bold text-gray-600 hover:text-gray-900">Therapy Pricing</a>
+            </div>
+
+            <!--Apppointment Button-->
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScLAf36MMrdGJm34qC704Y581p2E485XMbCaeoB1gfWVQtO6g/closedform"
+                target="_blank">
+                <button
+                    class="bg-pink-400 hover:bg-pink-600 active:bg-pink-700 text-white font-bold px-3 py-2 rounded-xl border-2 border-blue-900 hidden md:block">Appointment</button>
+            </a>
+
+            <!--Hamburger Icon-->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+         <!--Mobile Menu-->
+         <div class="md:hidden">
+            <div id="menu" class="absolute flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md hidden">
+                <a href="index.html" class="font-bold text-gray-900">Home</a>
+                <a href="aboutus.html" class="font-bold text-gray-900">About Us</a>
+                <a href="massage.html" class="font-bold text-gray-900">Massage</a>
+                <a href="locations.html" class="font-bold text-gray-900">Locations</a>
+                <a href="pricing.html" class="font-bold text-gray-900">Therapy Pricing</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScLAf36MMrdGJm34qC704Y581p2E485XMbCaeoB1gfWVQtO6g/closedform" target="_blank" class="font-bold text-gray-900">Appointment</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--About Us Section-->
+    <section class="text-white py-3 md:mx-40 mx-18">
+        <h3 class="text-center text-2xl font-extrabold">About Us</h3>
+        <!--Main description-->
+        <div class="mt-6 space-y-5 md:columns-2 gap-5">
+            <!--Logo-->
+            <div>
+                <img src="https://lotusblissspa.netlify.app/Assets/Logo/Lotus%20Bliss%20Thai%20Spa.jpg" alt="Brand logo"
+                    class="md:size-80 size-70 rounded-full border-3 border-pink-400 mx-auto">
+            </div>
+
+            <!--Paragraphs-->
+            <div class="space-y-4 mx-auto md:text-lg">
+                <p><strong>Lotus Bliss Thai Spa</strong> has been your sanctuary of relaxation and rejuvenation for over
+                    a year, offering
+                    a blissful retreat from the hustle and bustle of daily life. Rooted in the rich traditions of Thai
+                    healing, our spa is dedicated to providing an exceptional wellness experience that restores balance
+                    to the mind, body, and soul.</p>
+                <p>Our experienced therapists specialize in a range of therapeutic and luxurious treatments, from
+                    soothing Thai massages to invigorating spa therapies tailored to your unique needs. At Lotus Bliss,
+                    every detail—from our serene ambiance to the personalized care you receive—is designed to create a
+                    haven of tranquility where you can unwind and recharge.</p>
+                <p>Discover the art of self-care and step into a world of relaxation with Lotus Bliss Thai Spa. Let us
+                    help you find your inner peace and leave you feeling refreshed, revitalized, and ready to embrace
+                    life with renewed energy.</p>
+            </div>
+        </div>
+
+        <!--Mission & vision-->
+        <div class="md:mt-20 mt-10 space-y-5 md:columns-2">
+            <div class="space-y-2">
+                <h3 class="text-center text-2xl font-bold">Our Mission</h3>
+                <p class="md:text-lg">At Lotus Bliss Thai Spa, we are committed to revitalizing your body and soul
+                    through authentic Thai
+                    therapies, creating a sanctuary of tranquility and balance. Our mission is to provide an
+                    unparalleled spa experience that nurtures holistic wellness and inner peace.</p>
+            </div>
+
+            <div class="space-y-2">
+                <h3 class="text-center text-2xl font-bold">Our Vision</h3>
+                <p class="md:text-lg">Our vision at Lotus Bliss Thai Spa is to be a beacon of serenity, where every
+                    guest experiences the essence of Thai wellness traditions. We aim to inspire holistic harmony,
+                    rejuvenation, and lasting inner bliss.</p>
+            </div>
+        </div>
+
+        <!--What makes us special-->
+        <div class="md:mt-20 mt-10 lg:mx-80 md:mx-10">
+            <div>
+                <h5 class="text-2xl text-center font-bold mb-4">What Makes us Special</h5>
+                <ul class="space-y-3 md:text-lg">
+                    <li><strong>Authentic Thai Therapies:</strong> We offer traditional Thai treatments performed by
+                        expert therapists to provide an unmatched wellness experience.</li>
+                    <li><strong>Tranquil Ambience:</strong> Our spa is designed as a serene sanctuary, blending Thai
+                        aesthetics with modern luxury to promote relaxation.</li>
+                    <li><strong>Holistic Approach:</strong> Each therapy is tailored to harmonize mind, body, and
+                        spirit, ensuring a truly holistic rejuvenation.</li>
+                    <li><strong>Premium Natural Ingredients:</strong> From aromatic oils to herbal compresses, we use
+                        high-quality, natural products for a refreshing experience.</li>
+                    <li><strong>Personalized Care:</strong> Every guest is treated with exceptional warmth and
+                        attention, making their journey with us deeply fulfilling.</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Footer-->
+    <footer class="bg-pink-400 p-5 text-white md:min-h-50">
+        <!--Links-->
+        <div class="columns-2 mx-10 mb-5">
+            <div class="space-y-2 font-bold">
+                <a href="index.html" class="block">Home</a>
+                <a href="aboutus.html" class="block">About Us</a>
+                <a href="pricing.html" class="block">Therapy Pricing</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScLAf36MMrdGJm34qC704Y581p2E485XMbCaeoB1gfWVQtO6g/closedform" target="_blank" class="block">Appointment</a>
+            </div>
+
+            <div class="space-x-3 space-y-2">
+                <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook text-blue-700 text-4xl hover:text-blue-900"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram text-purple-700 text-4xl hover:text-purple-900"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter text-blue-500 text-4xl hover:text-blue-600"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="bi bi-linkedin text-sky-500 text-4xl hover:text-sky-600"></i></a>
+            </div>
+        </div>
+
+        <h4 class="text-xl font-bold text-center">Copyright &copy; 2025 Lotus Bliss Thai Spa, All Rights Reserved</h4>
+    </footer>
+
+     <!--Script for Tailwind CSS CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!--Script for navbar-->
+    <script src="script.js"></script>
+</body>
+
+</html>

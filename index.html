@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lotus Bliss Thai Spa | Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Tailwind version/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body class="bg-blue-900">
+    <!--Navbar-->
+    <nav class="navbar p-3 bg-lime-50">
+        <div class="flex items-center justify-between">
+            <!--Logo-->
+            <a href="#" class="font-extrabold text-pink-600">Lotus Bliss Thai Spa</a>
+            <!--Menu items-->
+            <div class="hidden space-x-3 md:flex">
+                <a href="index.html" class="font-bold text-gray-600 hover:text-gray-900">Home</a>
+                <a href="aboutus.html" class="font-bold text-gray-600 hover:text-gray-900">About Us</a>
+                <a href="#massage" class="font-bold text-gray-600 hover:text-gray-900">Massage</a>
+                <a href="#location" class="font-bold text-gray-600 hover:text-gray-900">Locations</a>
+                <a href="pricing.html" class="font-bold text-gray-600 hover:text-gray-900">Therapy Pricing</a>
+            </div>
+            <!--Appointment button-->
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScLAf36MMrdGJm34qC704Y581p2E485XMbCaeoB1gfWVQtO6g/closedform"
+                target="_blank">
+                <button
+                    class="bg-pink-400 md:flex hidden hover:bg-pink-600 active:bg-pink-700 text-white font-bold px-3 py-2 rounded-xl border-2 border-blue-900">Appointment</button>
+            </a>
+
+            <!--Hamburger Icon-->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <!--Mobile Menu-->
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="index.html" class="font-bold">Home</a>
+                <a href="aboutus.html" class="font-bold">About Us</a>
+                <a href="#massage" class="font-bold">Massage</a>
+                <a href="#location" class="font-bold">Locations</a>
+                <a href="pricing.html" class="font-bold">Therapy Pricing</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScLAf36MMrdGJm34qC704Y581p2E485XMbCaeoB1gfWVQtO6g/closedform" target="_blank" class="font-bold">Appointment</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--About Us Section-->
+    <section class="mt-1 px-5 py-3 text-white">
+        <h3 class="text-center font-bold text-2xl mb-3">About Lotus Bliss Thai Spa</h3>
+        <p><strong>Lotus Bliss Thai Spa</strong> has been your sanctuary of relaxation and rejuvenation for over a year,
+            offering a
+            blissful retreat from the hustle and bustle of daily life. Rooted in the rich traditions of Thai healing,
+            our spa is dedicated to providing an exceptional wellness experience that restores balance to the mind,
+            body, and soul.</p>
+
+        <p>Our experienced therapists specialize in a range of therapeutic and luxurious treatments, from soothing Thai
+            massages to invigorating spa therapies tailored to your unique needs. At Lotus Bliss, every detail—from our
+            serene ambiance to the personalized care you receive—is designed to create a haven of tranquility where you
+            can unwind and recharge.</p>
+
+        <p>Discover the art of self-care and step into a world of relaxation with Lotus Bliss Thai Spa. Let us help you
+            find your inner peace and leave you feeling refreshed, revitalized, and ready to embrace life with renewed
+            energy.</p>
+    </section>
+
+    <hr>
+
+    <!--Massage Options Section-->
+    <section id="massage" class="mt-1 p-5 mx-6">
+        <h3 class="text-center text-white font-bold text-2xl mb-6">Our wellness therapies</h3>
+        <!--Cards-->
+        <div class="md:columns-2 mx-5 space-y-5">
+            <div class="rounded-xl border-3 border-pink-400 bg-lime-50 max-w-80 p-5 text-center space-y-4">
+                <img src="https://lotusblissspa.netlify.app/Assets/Massage%20images/Foot%20Massage.png"
+                    alt="Foot Massage" class="card-img mx-auto border-pink-400 rounded-sm border-3">
+                <h5 class="font-bold text-xl">Foot Massage</h5>
+                <p>Take a moment to relax and rejuvenate with a comforting foot massage. Feel the stress melt away as
+                    gentle pressure and care work wonders for your tired feet.</p>
+                <a href="footmassage.html"><button
+                        class="bg-pink-500 text-white font-bold text-lg py-2 px-4 rounded-lg border-2 border-blue-900 hover:bg-pink-600">Explore</button></a>
+            </div>
+
+            <div class="rounded-xl border-3 border-pink-400 bg-lime-50 max-w-80 p-5 text-center space-y-4">
+                <img src="https://lotusblissspa.netlify.app/Assets/Massage%20images/Body%20Massage.jpg"
+                    alt="Foot Massage" class="card-img mx-auto border-pink-400 rounded-sm border-3">
+                <h5 class="font-bold text-xl">Body Massage</h5>
+                <p>Unwind and recharge with a relaxing full-body massage. Let the gentle, healing touch relieve tension
+                    and rejuvenate your mind and body.</p>
+                <a href="bodymassage.html"><button
+                        class="bg-pink-500 text-white font-bold text-lg py-2 px-4 rounded-lg border-2 border-blue-900 hover:bg-pink-600">Explore</button></a>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!--Health Benefits of Foot Massage Section-->
+    <section class="mt-1 px-5 py-3 mx-6">
+        <h3 class="text-center text-white font-bold text-2xl mb-7">Health benefits of Lotus Bliss Thai Spa Foot Massage
+        </h3>
+
+        <div class="md:columns-4 mx-5">
+            <div class="bg-lime-50 text-center rounded-xl border-3 border-pink-400 mb-3 max-w-80 p-5">
+                <img src="https://lotusblissspa.netlify.app/Assets/Massage%20images/Foot%20Massage-1.jpg"
+                    alt="Foot Massage Benefits" class="card-img mx-auto rounded-sm border-2 border-pink-400">
+                <h5 class="font-bold text-xl m-3">Improved Circulation</h5>
+                <hr>
+                <p class="m-3">Stimulates blood flow, particularly in the lower legs and feet.</p>
+            </div>
+
+            <div class="bg-lime-50 text-center rounded-xl border-3 border-pink-400 mb-3 max-w-80 p-5">
+                <img src="https://lotusblissspa.netlify.app/Assets/Massage%20images/Foot%20Massage-2.jpg"
+                    alt="Foot Massage Benefits" class="card-img mx-auto rounded-sm border-2 border-pink-400">
+                <h5 class="font-bold text-xl m-3">Relaxation and Stress Relief</h5>
+                <hr>
+                <p class="m-3">Focuses on specific pressure points, which can reduce anxiety and promote deep
+                    relaxation.</p>
+            </div>
+
+            <div class="bg-lime-50 text-center rounded-xl border-3 border-pink-400 mb-3 max-w-80 p-5">
+                <img src="https://lotusblissspa.netlify.app/Assets/Massage%20images/Foot%20Massage-3.jpg"
+                    alt="Foot Massage Benefits" class="card-img mx-auto rounded-sm border-2 border-pink-400">
+                <h5 class="font-bold text-xl m-3">Enhanced Energy Flow</h5>
+                <hr>
+                <p class="m-3">Based on reflexology principles, it aims to improve energy balance in the body.</p>
+            </div>
+
+            <div class="bg-lime-50 text-center rounded-xl border-3 border-pink-400 mb-3 max-w-80 p-5">
+                <img src="https://lotusblissspa.netlify.app/Assets/Massage%20images/Foot%20Massage-4.jpg"
+                    alt="Foot Massage Benefits" class="card-img mx-auto rounded-sm border-2 border-pink-400">
+                <h5 class="font-bold text-xl m-3">Pain Relief</h5>
+                <hr>
+                <p class="m-3">Can alleviate foot pain, plantar fasciitis, or tired, achy feet.</p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!--Health Benefits of Body Massage Section-->
+    <section class="mt-1 px-5 py-3 mx-6">
+        <h3 class="text-center text-white text-2xl mb-3">Health benefits of Lotus Bliss Thai Spa Body Massage</h3>
+        <div class="md:columns-4">
+            <div class="text-center bg-lime-50 border-3 border-pink-400 max-w-80 p-4 rounded-xl mb-3">
+                <img src="https://lotusblissspa.netlify.app/Assets/Massage%20images/Body%20Massage-1.jpg"
+                    alt="Body Massage Benefits" class="card-img mx-auto border-2 border-pink-400 rounded-sm">
+                <h5 class="text-center text-xl font-bold m-3">Stress and Anxiety Reduction</h5>
+                <hr>
+                <p class="m-3">Stretching techniques improve flexibility and reduce muscle tension.</p>
+            </div>
+
+            <div class="text-center bg-lime-50 border-3 border-pink-400 max-w-80 p-4 rounded-xl mb-3">
+                <img src="https://lotusblissspa.netlify.app/Assets/Massage%20images/Body%20Massage-2.jpg"
+                    alt="Body Massage Benefits" class="card-img mx-auto border-2 border-pink-400 rounded-sm">
+                <h5 class="text-center text-xl font-bold m-3">Flexibility and Muscle Relief</h5>
+                <hr>
+                <p class="m-3">Combines acupressure and stretches to calm the mind and body.</p>
+            </div>
+
+            <div class="text-center bg-lime-50 border-3 border-pink-400 max-w-80 p-4 rounded-xl mb-3">
+                <img src="https://lotusblissspa.netlify.app/Assets/Massage%20images/Body%20Massage-3.jpg"
+                    alt="Body Massage Benefits" class="card-img mx-auto border-2 border-pink-400 rounded-sm">
+                <h5 class="text-center text-xl font-bold m-3">Enhanced Posture and Alignment
+                </h5>
+                <hr>
+                <p class="m-3">Helps realign the body, easing joint stress and promoting better posture.</p>
+            </div>
+
+            <div class="text-center bg-lime-50 border-3 border-pink-400 max-w-80 p-4 rounded-xl mb-3">
+                <img src="https://lotusblissspa.netlify.app/Assets/Massage%20images/Body%20Massage-4.jpg"
+                    alt="Body Massage Benefits" class="card-img mx-auto border-2 border-pink-400 rounded-sm">
+                <h5 class="text-center text-xl font-bold m-3">Boosted Energy Levels
+                </h5>
+                <hr>
+                <p class="m-3">Increases energy flow through the body’s meridians (energy lines).</p>
+            </div>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <!--Spa Locations Section-->
+    <section id="location" class="mt-1 px-5 py-3 mx-6">
+        <h3 class="text-center text-white text-2xl font-extrabold mb-6">Locations</h3>
+        <!--Cards-->
+        <div class="md:columns-3 mx-auto text-center">
+            <div class="bg-lime-50 rounded-xl p-5 border-2 border-pink-400 max-w-80 mb-3">
+                <img src="https://lotusblissspa.netlify.app/Assets/Locations/Mumbai.png" alt="Mumbai locations"
+                    class="card-img border-2 border-pink-400 rounded-sm mx-auto">
+                <h5 class="text-xl font-bold m-3">Mumbai</h5>
+                <a href="mumbai.html"><button
+                        class="bg-pink-500 px-3 py-2 rounded-sm text-white hover:bg-pink-600">Explore</button></a>
+            </div>
+
+            <div class="bg-lime-50 rounded-xl p-5 border-2 border-pink-400 max-w-80 mb-3">
+                <img src="https://lotusblissspa.netlify.app/Assets/Locations/Pune.png" alt="Pune locations"
+                    class="card-img border-2 border-pink-400 rounded-sm mx-auto">
+                <h5 class="text-xl font-bold m-3">Pune</h5>
+                <a href="pune.html"><button
+                        class="bg-pink-500 px-3 py-2 rounded-sm text-white hover:bg-pink-600">Explore</button></a>
+            </div>
+
+            <div class="bg-lime-50 rounded-xl p-5 border-2 border-pink-400 max-w-80 mb-3">
+                <img src="https://lotusblissspa.netlify.app/Assets/Locations/Goa.png" alt="Pune locations"
+                    class="card-img border-2 border-pink-400 rounded-sm mx-auto">
+                <h5 class="text-xl font-bold m-3">Goa</h5>
+                <a href="goa.html"><button
+                        class="bg-pink-500 px-3 py-2 rounded-sm text-white hover:bg-pink-600">Explore</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="bg-pink-400 p-5 text-white md:min-h-50">
+        <!--Links-->
+        <div class="columns-2 mx-10 mb-5">
+            <div class="space-y-2 font-bold">
+                <a href="index.html" class="block">Home</a>
+                <a href="aboutus.html" class="block">About Us</a>
+                <a href="pricing.html" class="block">Therapy Pricing</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScLAf36MMrdGJm34qC704Y581p2E485XMbCaeoB1gfWVQtO6g/closedform" target="_blank" class="block">Appointment</a>
+            </div>
+
+            <div class="space-x-3 space-y-2">
+                <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook text-blue-700 text-4xl hover:text-blue-900"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram text-purple-700 text-4xl hover:text-purple-900"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter text-blue-500 text-4xl hover:text-blue-600"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="bi bi-linkedin text-sky-500 text-4xl hover:text-sky-600"></i></a>
+            </div>
+        </div>
+
+        <h4 class="text-xl font-bold text-center">Copyright &copy; 2025 Lotus Bliss Thai Spa, All Rights Reserved</h4>
+    </footer>
+
+    <!--Script for Tailwind CSS CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!--Script for navbar-->
+    <script src="script.js"></script>
+</body>
+
+</html>
