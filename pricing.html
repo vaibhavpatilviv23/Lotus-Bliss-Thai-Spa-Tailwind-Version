@@ -24,20 +24,44 @@
                 <a href="locations.html" class="font-bold text-gray-600 hover:text-gray-900">Locations</a>
                 <a href="pricing.html" class="font-bold text-gray-600 hover:text-gray-900">Therapy Pricing</a>
             </div>
+
             <!--Apppointment button-->
             <a href="https://docs.google.com/forms/d/e/1FAIpQLScLAf36MMrdGJm34qC704Y581p2E485XMbCaeoB1gfWVQtO6g/viewform?usp=dialog"
                 target="_blank">
                 <button
-                    class="text-white font-bold bg-pink-400 hover:bg-pink-500 py-2 px-3 rounded-xl border-2 border-blue-900">Appointment</button>
+                    class="text-white font-bold bg-pink-400 hover:bg-pink-500 py-2 px-3 rounded-xl border-2 border-blue-900 hidden md:block">Appointment</button>
             </a>
+
+            <!--Hamburger Icon-->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+        
+
+        <!--Mobile Menu-->
+        <div class="md:hidden">
+            <div id="menu"
+                class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="index.html" class="font-bold">Home</a>
+                <a href="aboutus.html" class="font-bold">About Us</a>
+                <a href="massage.html" class="font-bold">Massage</a>
+                <a href="locations.html" class="font-bold">Locations</a>
+                <a href="pricing.html" class="font-bold">Therapy Pricing</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScLAf36MMrdGJm34qC704Y581p2E485XMbCaeoB1gfWVQtO6g/closedform"
+                    target="_blank" class="font-bold">Appointment</a>
+            </div>
         </div>
     </nav>
 
     <!--Foot Massage Pricing section-->
     <section class="py-3">
         <h3 class="text-center text-2xl font-bold text-white">Foot Massage Therapy Pricing</h3>
-        <div class="md:columns-3 lg:columns-4 my-5 space-y-5 space-x-4 lg:mx-15 md:mx-15 mx-20">
-            <div class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 min-h-90">
+        <div class="grid sm:grid-cols-2 md:grid-cols-3  xl:grid-cols-4 gap-14 mt-10 mb-10 mx-20 sm:mx-10 md:mx-10 lg:mx-12 xl:mx-15">
+            <div
+                class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 max-w-70 min-h-90">
                 <h5 class="font-bold text-xl">Foot Massage with Back Head and Shoulder</h5>
                 <p>Pricing varies from the duration of massage</p>
                 <div class="border-2 border-pink-400 rounded-sm py-2 space-y-3 bg-white">
@@ -51,7 +75,8 @@
             </div>
 
 
-            <div class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 min-h-90">
+            <div
+                class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 max-w-70 min-h-90">
                 <h5 class="font-bold text-xl">Foot Massage with Herbal Compress</h5>
                 <p>Pricing varies from the duration of massage</p>
                 <div class="border-2 border-pink-400 rounded-sm py-2 space-y-3 bg-white">
@@ -64,7 +89,8 @@
                         Details</button></a>
             </div>
 
-            <div class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 min-h-90">
+            <div
+                class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 max-w-70 min-h-90">
                 <h5 class="font-bold text-xl">Foot Massage with Hot Stones</h5>
                 <p>Pricing varies from the duration of massage</p>
                 <div class="border-2 border-pink-400 rounded-sm py-2 space-y-3 bg-white">
@@ -77,7 +103,8 @@
                         Details</button></a>
             </div>
 
-            <div class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 min-h-90">
+            <div
+                class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 max-w-70 min-h-90">
                 <h5 class="font-bold text-xl">Foot Massage with Mineral Salt</h5>
                 <p>Pricing varies from the duration of massage</p>
                 <div class="border-2 border-pink-400 rounded-sm py-2 space-y-3 bg-white">
@@ -90,7 +117,8 @@
                         Details</button></a>
             </div>
 
-            <div class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 min-h-90">
+            <div
+                class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 max-w-70 min-h-90">
                 <h5 class="font-bold text-xl">Thai Traditional Foot Massage</h5>
                 <p>Pricing varies from the duration of massage</p>
                 <div class="border-2 border-pink-400 rounded-sm py-2 space-y-3 bg-white">
@@ -108,8 +136,9 @@
     <!--Body Massage Pricing section-->
     <section class="py-3">
         <h3 class="text-center text-2xl font-bold text-white">Body Massage</h3>
-        <div class="md:columns-3 lg:columns-4 my-5 space-y-5 space-x-4 lg:mx-15 md:mx-15 mx-20">
-            <div class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 min-h-90">
+        <div class="grid sm:grid-cols-2 md:grid-cols-3  xl:grid-cols-4 gap-14 mt-10 mb-10 mx-20 sm:mx-10 md:mx-10 lg:mx-12 xl:mx-15">
+            <div
+                class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 max-w-70 min-h-90">
                 <h5 class="font-bold text-xl">Foot Massage with Back Head and Shoulder</h5>
                 <p>Pricing varies from the duration of massage</p>
                 <div class="border-2 border-pink-400 rounded-sm py-2 space-y-3 bg-white">
@@ -122,7 +151,8 @@
                         Details</button></a>
             </div>
 
-            <div class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 min-h-90">
+            <div
+                class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 max-w-70 min-h-90">
                 <h5 class="font-bold text-xl">Sweedish Massage</h5>
                 <p>Pricing varies from the duration of massage</p>
                 <div class="border-2 border-pink-400 rounded-sm py-2 space-y-3 bg-white">
@@ -135,7 +165,8 @@
                         Details</button></a>
             </div>
 
-            <div class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 min-h-90">
+            <div
+                class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 max-w-70 min-h-90">
                 <h5 class="font-bold text-xl">Balinese Massage</h5>
                 <p>Pricing varies from the duration of massage</p>
                 <div class="border-2 border-pink-400 rounded-sm py-2 space-y-3 bg-white">
@@ -148,7 +179,8 @@
                         Details</button></a>
             </div>
 
-            <div class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 min-h-90">
+            <div
+                class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 max-w-70 min-h-90">
                 <h5 class="font-bold text-xl">Deep Tissue Massage</h5>
                 <p>Pricing varies from the duration of massage</p>
                 <div class="border-2 border-pink-400 rounded-sm py-2 space-y-3 bg-white">
@@ -161,7 +193,8 @@
                         Details</button></a>
             </div>
 
-            <div class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 min-h-90">
+            <div
+                class="card bg-lime-50 text-center p-5 space-y-3 rounded-xl border-3 border-pink-400 min-w-70 max-w-70 min-h-90">
                 <h5 class="font-bold text-xl">Thai Dry Massage</h5>
                 <p>Pricing varies from the duration of massage</p>
                 <div class="border-2 border-pink-400 rounded-sm py-2 space-y-3 bg-white">
@@ -176,30 +209,39 @@
         </div>
     </section>
 
-   
+
     <!--Footer-->
     <footer class="bg-pink-400 p-5 text-white md:min-h-50">
         <!--Links-->
-        <div class="columns-2 mx-10 mb-5">
+        <div class="grid grid-cols-2 gap-5 mb-8 mx-15">
             <div class="space-y-2 font-bold">
                 <a href="index.html" class="block">Home</a>
                 <a href="aboutus.html" class="block">About Us</a>
                 <a href="pricing.html" class="block">Therapy Pricing</a>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScLAf36MMrdGJm34qC704Y581p2E485XMbCaeoB1gfWVQtO6g/closedform" target="_blank" class="block">Appointment</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScLAf36MMrdGJm34qC704Y581p2E485XMbCaeoB1gfWVQtO6g/closedform"
+                    target="_blank" class="block">Appointment</a>
             </div>
 
             <div class="space-x-3 space-y-2">
-                <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook text-blue-700 text-4xl hover:text-blue-900"></i></a>
-                <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram text-purple-700 text-4xl hover:text-purple-900"></i></a>
-                <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter text-blue-500 text-4xl hover:text-blue-600"></i></a>
-                <a href="https://www.linkedin.com" target="_blank"><i class="bi bi-linkedin text-sky-500 text-4xl hover:text-sky-600"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i
+                        class="bi bi-facebook text-blue-700 text-4xl hover:text-blue-900"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i
+                        class="bi bi-instagram text-purple-700 text-4xl hover:text-purple-900"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i
+                        class="bi bi-twitter text-blue-500 text-4xl hover:text-blue-600"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i
+                        class="bi bi-linkedin text-sky-500 text-4xl hover:text-sky-600"></i></a>
             </div>
         </div>
 
-        <h4 class="text-xl font-bold text-center">Copyright &copy; 2025 Lotus Bliss Thai Spa, All Rights Reserved</h4>
+        <h4 class="text-lg font-bold text-center">Copyright &copy; 2025 Lotus Bliss Thai Spa, All Rights Reserved</h4>
     </footer>
 
+    <!--Script for Tailwind CSS-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!--Script for Navbar-->
+    <script src="script.js"></script>
 
 </body>
 
