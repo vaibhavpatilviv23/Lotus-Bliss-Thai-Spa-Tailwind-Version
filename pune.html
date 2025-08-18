@@ -7,18 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="shortcut icon" href="Assets/Logo/Favicon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/Logo/Lotus Bliss Thai Spa - new favicon.png" type="image/x-icon">
     <meta name="description"
         content="Experience the art of Thai wellness at Lotus Bliss Thai Spa in Pune. With serene locations across the city, discover authentic massage therapies designed to relax, heal, and rejuvenate—right in your neighborhood.">
 </head>
 
-<body class="bg-blue-900">
-    <nav class="navbar bg-lime-50 mx-auto p-3">
+<body class="bg-gray-100 dark:bg-gray-800 dark:text-white">
+    <!--navbar-->
+   <nav class="navbar bg-orange-100 mx-auto p-3">
         <div class="flex items-center justify-between">
             <!--Logo-->
-            <a href="index.html" class="font-extrabold text-pink-500">Lotus Bliss Thai Spa</a>
-            <!--Other links-->
-            <div class="space-x-3 hidden md:flex font-bold">
+            <a href="index.html" class="text-red-500 font-extrabold">Lotus Bliss Thai Spa</a>
+            <!--Menu items-->
+            <div class="md:flex hidden space-x-3">
                 <a href="index.html" class="font-bold text-gray-600 hover:text-gray-900">Home</a>
                 <a href="aboutus.html" class="font-bold text-gray-600 hover:text-gray-900">About Us</a>
                 <a href="massage.html" class="font-bold text-gray-600 hover:text-gray-900">Massage</a>
@@ -26,15 +27,15 @@
                 <a href="pricing.html" class="font-bold text-gray-600 hover:text-gray-900">Therapy Pricing</a>
             </div>
 
-            <!--Appointment button-->
+            <!--Apppointment Button-->
             <a href="https://docs.google.com/forms/d/e/1FAIpQLScLAf36MMrdGJm34qC704Y581p2E485XMbCaeoB1gfWVQtO6g/closedform"
                 target="_blank">
                 <button
-                    class="bg-pink-400 hover:bg-pink-600 text-white font-bold px-3 py-2 rounded-xl border-2 border-blue-900 hidden md:block">Appointment</button>
+                    class="bg-red-500 hover:bg-red-600 active:bg-red-700 text-white font-bold px-3 py-2 rounded-xl border-2 border-blue-900 hidden md:block">Appointment</button>
             </a>
 
             <!--Hamburger Icon-->
-            <button id="menu-btn" class="hamburger block md:hidden focus:outline-none">
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
                 <span class="hamburger-top"></span>
                 <span class="hamburger-middle"></span>
                 <span class="hamburger-bottom"></span>
@@ -44,77 +45,74 @@
         <!--Mobile Menu-->
         <div class="md:hidden">
             <div id="menu"
-                class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
-                <a href="index.html" class="font-bold">Home</a>
-                <a href="aboutus.html" class="font-bold">About Us</a>
-                <a href="massage.html" class="font-bold">Massage</a>
-                <a href="locations.html" class="font-bold">Locations</a>
-                <a href="pricing.html" class="font-bold">Therapy Pricing</a>
+                class="absolute flex-col items-center self-end py-3 mt-10 space-y-3 font-bold bg-orange-100 sm:w-auto sm:self-center left-6 right-6 top-5 drop-shadow-md hidden">
+                <a href="index.html" class="font-bold text-gray-900">Home</a>
+                <a href="aboutus.html" class="font-bold text-gray-900">About Us</a>
+                <a href="massage.html" class="font-bold text-gray-900">Massage</a>
+                <a href="locations.html" class="font-bold text-gray-900">Locations</a>
+                <a href="pricing.html" class="font-bold text-gray-900">Therapy Pricing</a>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLScLAf36MMrdGJm34qC704Y581p2E485XMbCaeoB1gfWVQtO6g/closedform"
-                    target="_blank" class="font-bold">Appointment</a>
+                    target="_blank" class="font-bold text-gray-900">Appointment</a>
             </div>
         </div>
     </nav>
 
     <!--Locations section-->
-    <section class="py-5 px-3">
-        <h3 class="text-center text-white text-2xl font-bold">Lotus Bliss Thai Spa | Pune Locations</h3>
+    <section class="py-3 mx-10">
+        <h3 class="text-center text-lg font-bold">Lotus Bliss Thai Spa | Pune Locations</h3>
 
         <!--Cards-->
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 my-10 lg:mx-40 md:mx-15 mx-10">
-            <div class="card bg-lime-50 text-center py-8 px-5 max-w-90 space-y-5 rounded-xl border-3 border-pink-400">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 my-3">
+            <div class="text-center space-y-3">
                 <!--Location name-->
-                <h5 class="font-bold text-xl">Lotus Bliss Thai Spa <span class="block">Chatushrungi</span></h5>
-                <hr>
+                <h5 class="font-bold text-xl">Lotus Bliss Thai Spa <span class="sm:block">Chatushrungi</span></h5>
                 <!--Address & contact details-->
                 <p><strong>Address: </strong>1, Uma Apartments, near Chattushringi, Chattushringi, Gokhalenagar, Pune,
                     Maharashtra 411016</p>
                 <p><strong>Contact No.: </strong>9999999999</p>
                 <!--Buttons for direct call & navigation through maps-->
-                <div class="space-x-3 space-y-3">
+                <div class="space-x-3">
                     <a href="#"
-                        class="bg-pink-500 hover:bg-pink-600 px-3 py-2 rounded-xl border-3 border-blue-900 text-white font-bold block">Contact
+                        class="bg-red-500 hover:bg-red-600 active:bg-red-700 text-white font-bold px-3 py-2 rounded-lg">Contact
                         Spa</a>
                     <a href="#"
-                        class="bg-pink-500 hover:bg-pink-600 px-3 py-2 rounded-xl border-3 border-blue-900 text-white font-bold block">Navigate
+                        class="bg-red-500 hover:bg-red-600 active:bg-red-700 text-white font-bold px-3 py-2 rounded-lg">Navigate
                         Now</a>
                 </div>
             </div>
 
-            <div class="card bg-lime-50 text-center py-8 px-5 max-w-90 space-y-5 rounded-xl border-3 border-pink-400">
+            <div class="text-center space-y-3">
                 <!--Location name-->
-                <h5 class="font-bold text-xl">Lotus Bliss Thai Spa <span class="block">Koregaon Park</span></h5>
-                <hr>
+                <h5 class="font-bold text-xl">Lotus Bliss Thai Spa <span class="sm:block">Koregaon Park</span></h5>
                 <!--Address & contact details-->
                 <p><strong>Address: </strong>Liberty Phase 2, Ragvilas Society, Koregaon Park, Pune, Maharashtra 411001
                 </p>
                 <p><strong>Contact No.: </strong>9999999999</p>
                 <!--Buttons for direct call & navigation through maps-->
-                <div class="space-x-3 space-y-3">
+                <div class="space-x-3">
                     <a href="#"
-                        class="bg-pink-500 hover:bg-pink-600 px-3 py-2 rounded-xl border-3 border-blue-900 text-white font-bold block">Contact
+                        class="bg-red-500 hover:bg-red-600 active:bg-red-700 text-white font-bold px-3 py-2 rounded-lg">Contact
                         Spa</a>
                     <a href="#"
-                        class="bg-pink-500 hover:bg-pink-600 px-3 py-2 rounded-xl border-3 border-blue-900 text-white font-bold block">Navigate
+                        class="bg-red-500 hover:bg-red-600 active:bg-red-700 text-white font-bold px-3 py-2 rounded-lg">Navigate
                         Now</a>
                 </div>
             </div>
 
-            <div class="card bg-lime-50 text-center py-8 px-5 max-w-90 space-y-5 rounded-xl border-3 border-pink-400">
+            <div class="text-center space-y-3">
                 <!--Location name-->
-                <h5 class="font-bold text-xl">Lotus Bliss Thai Spa <span class="block">Phoenix Marketcity</span></h5>
-                <hr>
+                <h5 class="font-bold text-xl">Lotus Bliss Thai Spa <span class="sm:block">Phoenix Marketcity</span></h5>
                 <!--Proper address & contact details-->
                 <p><strong>Address: </strong>Phoenix Marketcity, 207, Nagar Rd, Clover Park, Viman Nagar, Pune,
                     Maharashtra 411014</p>
                 <p><strong>Contact No.: </strong>9999999999</p>
                 <!--Buttons for direct call & navigation through maps-->
-                <div class="space-x-3 space-y-3">
+                <div class="space-x-3">
                     <a href="#"
-                        class="bg-pink-500 hover:bg-pink-600 px-3 py-2 rounded-xl border-3 border-blue-900 text-white font-bold block">Contact
+                        class="bg-red-500 hover:bg-red-600 active:bg-red-700 text-white font-bold px-3 py-2 rounded-lg">Contact
                         Spa</a>
                     <a href="#"
-                        class="bg-pink-500 hover:bg-pink-600 px-3 py-2 rounded-xl border-3 border-blue-900 text-white font-bold block">Navigate
+                        class="bg-red-500 hover:bg-red-600 active:bg-red-700 text-white font-bold px-3 py-2 rounded-lg">Navigate
                         Now</a>
                 </div>
             </div>
@@ -123,7 +121,7 @@
 
 
     <!--Footer-->
-    <footer class="bg-pink-400 p-5 text-white md:min-h-50">
+    <footer class="bg-red-400 p-5 text-white md:min-h-50 lg:fixed md:bottom-0 w-full">
         <!--Links-->
         <div class="columns-2 mx-10 mb-5">
             <div class="space-y-2 font-bold">

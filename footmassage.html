@@ -13,13 +13,13 @@
 </head>
 
 <body class="bg-blue-900">
-    <nav class="navbar bg-lime-50 mx-auto p-3">
+    <!--Navbar-->
+    <nav class="navbar bg-orange-100 mx-auto p-3">
         <div class="flex items-center justify-between">
             <!--Logo-->
-            <a href="index.html" class="font-extrabold text-pink-600">Lotus Bliss Thai Spa</a>
-
-            <!--Other links-->
-            <div class="md:flex hidden space-x-4 font-bold">
+            <a href="index.html" class="text-red-500 font-extrabold">Lotus Bliss Thai Spa</a>
+            <!--Menu items-->
+            <div class="md:flex hidden space-x-3">
                 <a href="index.html" class="font-bold text-gray-600 hover:text-gray-900">Home</a>
                 <a href="aboutus.html" class="font-bold text-gray-600 hover:text-gray-900">About Us</a>
                 <a href="massage.html" class="font-bold text-gray-600 hover:text-gray-900">Massage</a>
@@ -27,12 +27,15 @@
                 <a href="pricing.html" class="font-bold text-gray-600 hover:text-gray-900">Therapy Pricing</a>
             </div>
 
-            <!--Appointment button-->
-            <a href="#"><button
-                    class="bg-pink-400 hover:bg-pink-600 px-3 py-2 border-2 border-blue-900 rounded-xl text-white font-bold hidden md:block">Appointment</button></a>
+            <!--Apppointment Button-->
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScLAf36MMrdGJm34qC704Y581p2E485XMbCaeoB1gfWVQtO6g/closedform"
+                target="_blank">
+                <button
+                    class="bg-red-500 hover:bg-red-600 active:bg-red-700 text-white font-bold px-3 py-2 rounded-xl border-2 border-blue-900 hidden md:block">Appointment</button>
+            </a>
 
             <!--Hamburger Icon-->
-            <button id="menu-btn" class="hamburger block md:hidden focus:outline-none">
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
                 <span class="hamburger-top"></span>
                 <span class="hamburger-middle"></span>
                 <span class="hamburger-bottom"></span>
@@ -42,14 +45,14 @@
         <!--Mobile Menu-->
         <div class="md:hidden">
             <div id="menu"
-                class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
-                <a href="index.html" class="font-bold">Home</a>
-                <a href="aboutus.html" class="font-bold">About Us</a>
-                <a href="massage.html" class="font-bold">Massage</a>
-                <a href="locations.html" class="font-bold">Locations</a>
-                <a href="pricing.html" class="font-bold">Therapy Pricing</a>
+                class="absolute flex-col items-center self-end py-3 mt-10 space-y-3 font-bold bg-orange-100 sm:w-auto sm:self-center left-6 right-6 top-5 drop-shadow-md hidden">
+                <a href="index.html" class="font-bold text-gray-900">Home</a>
+                <a href="aboutus.html" class="font-bold text-gray-900">About Us</a>
+                <a href="massage.html" class="font-bold text-gray-900">Massage</a>
+                <a href="locations.html" class="font-bold text-gray-900">Locations</a>
+                <a href="pricing.html" class="font-bold text-gray-900">Therapy Pricing</a>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLScLAf36MMrdGJm34qC704Y581p2E485XMbCaeoB1gfWVQtO6g/closedform"
-                    target="_blank" class="font-bold">Appointment</a>
+                    target="_blank" class="font-bold text-gray-900">Appointment</a>
             </div>
         </div>
     </nav>

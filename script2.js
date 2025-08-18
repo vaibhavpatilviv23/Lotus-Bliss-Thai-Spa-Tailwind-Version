@@ -1,1 +1,2 @@
-alert("Note: This is personal study project")
+/*
+alert("Note: This is personal study project") */

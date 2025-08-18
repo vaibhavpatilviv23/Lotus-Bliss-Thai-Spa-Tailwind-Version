@@ -7,30 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="shortcut icon" href="Assets/Logo/Favicon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/Logo/Lotus Bliss Thai Spa - new logo.png" type="image/x-icon">
     <meta name="description"
         content="Escape to serenity at Lotus Bliss Thai Spa—Mumbai's haven for authentic Thai therapies, soothing ambiance, and personalized wellness experiences. Rejuvenate your mind, body, and soul with our expert touch.">
 </head>
 
-<body class="bg-blue-900">
+<body class="bg-gray-100 dark:bg-gray-800 dark:text-white">
     <!--Navbar-->
-    <nav class="navbar p-3 bg-lime-50">
+    <nav class="navbar bg-orange-100 mx-auto p-3">
         <div class="flex items-center justify-between">
             <!--Logo-->
-            <a href="#" class="font-extrabold text-pink-600">Lotus Bliss Thai Spa</a>
+            <a href="index.html" class="text-red-500 font-extrabold">Lotus Bliss Thai Spa</a>
             <!--Menu items-->
-            <div class="hidden space-x-3 md:flex">
+            <div class="md:flex hidden space-x-3">
                 <a href="index.html" class="font-bold text-gray-600 hover:text-gray-900">Home</a>
                 <a href="aboutus.html" class="font-bold text-gray-600 hover:text-gray-900">About Us</a>
-                <a href="#massage" class="font-bold text-gray-600 hover:text-gray-900">Massage</a>
-                <a href="#location" class="font-bold text-gray-600 hover:text-gray-900">Locations</a>
+                <a href="massage.html" class="font-bold text-gray-600 hover:text-gray-900">Massage</a>
+                <a href="locations.html" class="font-bold text-gray-600 hover:text-gray-900">Locations</a>
                 <a href="pricing.html" class="font-bold text-gray-600 hover:text-gray-900">Therapy Pricing</a>
             </div>
-            <!--Appointment button-->
+
+            <!--Apppointment Button-->
             <a href="https://docs.google.com/forms/d/e/1FAIpQLScLAf36MMrdGJm34qC704Y581p2E485XMbCaeoB1gfWVQtO6g/closedform"
                 target="_blank">
                 <button
-                    class="bg-pink-400 md:flex hidden hover:bg-pink-600 active:bg-pink-700 text-white font-bold px-3 py-2 rounded-xl border-2 border-blue-900">Appointment</button>
+                    class="bg-red-500 hover:bg-red-600 active:bg-red-700 text-white font-bold px-3 py-2 rounded-xl hidden md:block">Appointment</button>
             </a>
 
             <!--Hamburger Icon-->
@@ -44,203 +45,301 @@
         <!--Mobile Menu-->
         <div class="md:hidden">
             <div id="menu"
-                class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
-                <a href="index.html" class="font-bold">Home</a>
-                <a href="aboutus.html" class="font-bold">About Us</a>
-                <a href="#massage" class="font-bold">Massage</a>
-                <a href="#location" class="font-bold">Locations</a>
-                <a href="pricing.html" class="font-bold">Therapy Pricing</a>
+                class="absolute flex-col items-center self-end py-3 mt-10 space-y-3 font-bold bg-orange-100 sm:w-auto sm:self-center left-6 right-6 top-5 drop-shadow-md hidden">
+                <a href="index.html" class="font-bold text-gray-900">Home</a>
+                <a href="aboutus.html" class="font-bold text-gray-900">About Us</a>
+                <a href="massage.html" class="font-bold text-gray-900">Massage</a>
+                <a href="locations.html" class="font-bold text-gray-900">Locations</a>
+                <a href="pricing.html" class="font-bold text-gray-900">Therapy Pricing</a>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLScLAf36MMrdGJm34qC704Y581p2E485XMbCaeoB1gfWVQtO6g/closedform"
-                    target="_blank" class="font-bold">Appointment</a>
+                    target="_blank" class="font-bold text-gray-900">Appointment</a>
             </div>
         </div>
     </nav>
 
     <!--About Us Section-->
-    <section class="mt-1 px-5 py-3 text-white">
-        <h3 class="text-center font-bold text-2xl mb-3">About Lotus Bliss Thai Spa</h3>
-        <p><strong>Lotus Bliss Thai Spa</strong> has been your sanctuary of relaxation and rejuvenation for over a year,
-            offering a
-            blissful retreat from the hustle and bustle of daily life. Rooted in the rich traditions of Thai healing,
-            our spa is dedicated to providing an exceptional wellness experience that restores balance to the mind,
-            body, and soul.</p>
+    <section class="py-3 mx-10">
+        <h3 class="text-center font-bold text-lg">About Lotus Bliss Thai Spa</h3>
+        <!--Column design for responsiveness-->
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 my-3">
+            <div>
+                <p><strong class="block">Your Sanctuary of Calm</strong> Welcome to Lotus Bliss Thai Spa—a serene escape
+                    from the
+                    everyday. For over a year, we’ve been a trusted haven for relaxation, healing, and renewal, rooted
+                    in the timeless traditions of Thai wellness.
+                </p>
+            </div>
 
-        <p>Our experienced therapists specialize in a range of therapeutic and luxurious treatments, from soothing Thai
-            massages to invigorating spa therapies tailored to your unique needs. At Lotus Bliss, every detail—from our
-            serene ambiance to the personalized care you receive—is designed to create a haven of tranquility where you
-            can unwind and recharge.</p>
+            <div>
+                <p><strong class="block">Tailored Wellness Treatments</strong> Our skilled therapists offer a curated
+                    blend of
+                    therapeutic and indulgent services, including authentic Thai massages and rejuvenating spa rituals
+                    personalized to your unique needs.</p>
+            </div>
 
-        <p>Discover the art of self-care and step into a world of relaxation with Lotus Bliss Thai Spa. Let us help you
-            find your inner peace and leave you feeling refreshed, revitalized, and ready to embrace life with renewed
-            energy.</p>
+            <div>
+                <p><strong class="block">Designed for Deep Rejuvenation</strong> Every detail—from our tranquil ambiance
+                    to the
+                    attentive care you receive—is crafted to
+                    restore harmony to your mind, body, and spirit.</p>
+            </div>
+
+            <div>
+                <p><strong class="block">Rediscover Your Inner Peace</strong> Step into a space where self-care becomes
+                    sacred. Leave feeling refreshed, revitalized, and ready to embrace life with renewed energy.</p>
+            </div>
+        </div>
     </section>
 
-    <hr>
-
     <!--Massage Options Section-->
-    <section id="massage" class="mt-1 p-5 mx-6">
-        <h3 class="text-center text-white font-bold text-2xl mb-6">Our wellness therapies</h3>
+    <section id="massage" class="py-3 mx-10">
+        <h3 class="text-center font-bold text-lg">Our wellness therapies</h3>
         <!--Cards-->
-        <div class="md:columns-2 mx-5 space-y-5">
-            <div class="rounded-xl border-3 border-pink-400 bg-lime-50 max-w-85 min-h-100 p-5 text-center space-y-4">
+        <div class="grid sm:grid-cols-2 gap-5 my-3">
+            <div class="text-center space-y-3">
                 <img src="Assets/Massage images/Foot Massage.png" alt="Foot Massage"
-                    class="card-img mx-auto border-pink-400 rounded-sm border-3">
+                    class="card-img mx-auto rounded-md">
                 <h5 class="font-bold text-xl">Foot Massage</h5>
                 <p>Take a moment to relax and rejuvenate with a comforting foot massage. Feel the stress melt away as
                     gentle pressure and care work wonders for your tired feet.</p>
                 <a href="footmassage.html"><button
-                        class="bg-pink-500 text-white font-bold text-lg py-1 px-4 rounded-lg border-2 border-blue-900 hover:bg-pink-600">Explore</button></a>
+                        class="bg-red-500 text-white font-bold py-1 px-3 rounded-md hover:bg-red-600">Explore</button></a>
             </div>
 
-            <div class="rounded-xl border-3 border-pink-400 bg-lime-50 max-w-85 min-h-100 p-5 text-center space-y-4">
+            <div class="text-center space-y-3">
                 <img src="Assets/Massage images/Body Massage.jpg" alt="Foot Massage"
-                    class="card-img mx-auto border-pink-400 rounded-sm border-3">
+                    class="card-img mx-auto rounded-md">
                 <h5 class="font-bold text-xl">Body Massage</h5>
                 <p>Unwind and recharge with a relaxing full-body massage. Let the gentle, healing touch relieve tension
                     and rejuvenate your mind and body.</p>
                 <a href="bodymassage.html"><button
-                        class="bg-pink-500 text-white font-bold text-lg py-1 px-4 rounded-lg border-2 border-blue-900 hover:bg-pink-600">Explore</button></a>
+                        class="bg-red-500 text-white font-bold py-1 px-3 rounded-md hover:bg-red-600">Explore</button></a>
             </div>
         </div>
     </section>
 
-    <hr>
 
     <!--Health Benefits of Foot Massage Section-->
-    <section class="mt-1 px-5 py-3">
-        <h3 class="text-center text-white font-bold text-2xl">Health benefits of Lotus Bliss Thai Spa Foot Massage
+    <section class="py-3 mx-10">
+        <h3 class="text-center font-bold text-lg">Health benefits of Lotus Bliss Thai Spa Foot Massage
         </h3>
 
         <!--Cards-->
-        <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mt-10 mb-10 mx-8">
-            <div
-                class="bg-lime-50 text-center rounded-lg border-3 border-pink-400 min-w-75 min-h-110 sm:max-w-50 py-5 px-3 space-y-4">
-                <img src="Assets/Massage images/Foot Massage-1.jpg" alt="Foot Massage Benefits"
-                    class="card-img mx-auto border-pink-400 rounded-sm border-3">
-                <h5 class="font-bold text-xl">Improved Circulation</h5>
-                <hr>
-                <p class="">Stimulates blood flow, particularly in the lower legs and feet.</p>
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 my-3">
+
+            <div class="space-y-3">
+                <!--Img
+                    <div>
+                        <img src="Assets/Massage images/Foot Massage-1.jpg" alt="Foot Massage Benefits"
+                            class="card-img mx-auto sm:my-10 xl:my-20 rounded-md card-img rounded-md">
+                    </div>
+                    -->
+
+                <!--Text-info-->
+
+                <h5 class="font-bold text-lg text-center">Improved Circulation</h5>
+                <p>Improved circulation is one of the key benefits of our treatments, especially for the lower
+                    legs and feet—areas that often suffer from poor blood flow due to long hours of sitting,
+                    standing,
+                    or daily strain. By gently stimulating the circulatory system, our therapies help oxygen and
+                    nutrients reach tired muscles more efficiently, easing discomfort and revitalizing the body
+                    from the
+                    ground up.</p>
+
+                <p>This boost in blood flow also supports natural detoxification, reduces swelling, and
+                    enhances
+                    overall
+                    mobility. Clients often leave feeling lighter, more energized, and with a renewed sense
+                    of
+                    vitality—proof that when your circulation flows freely, so does your sense of well-being
+                </p>
+
+
             </div>
 
-            <div
-                class="bg-lime-50 text-center rounded-lg border-3 border-pink-400 min-w-75 min-h-110 sm:max-w-50 py-5 px-3 space-y-4">
-                <img src="Assets/Massage images/Foot Massage-2.jpg" alt="Foot Massage Benefits"
-                    class="card-img mx-auto border-pink-400 rounded-sm border-3">
-                <h5 class="font-bold text-xl">Relaxation and Stress Relief</h5>
-                <hr>
-                <p class="">Focuses on specific pressure points, which can reduce anxiety and promote deep
-                    relaxation.</p>
+            <div class="space-y-3">
+                <!--
+            <img src="Assets/Massage images/Foot Massage-2.jpg" alt="Foot Massage Benefits" 
+            class="card-img mx-auto rounded-md card-img mx-auto rounded-md">
+-->
+                <h5 class="font-bold text-lg text-center">Relaxation and Stress Relief</h5>
+                <p>Relaxation and stress relief lie at the heart of our Thai-inspired therapies. By focusing on specific
+                    pressure points throughout the body—especially along the shoulders, back, hands, and feet—our
+                    treatments help release built-up tension and calm the nervous system. This targeted approach not
+                    only soothes physical discomfort but also eases emotional strain, creating space for mental clarity
+                    and peace.</p>
+
+                <p>As anxiety melts away, the body enters a deeper state of rest and recovery. Clients often describe a
+                    sense of lightness, warmth, and emotional balance after each session. Whether you're navigating
+                    daily stress or simply seeking a moment of calm, Lotus Bliss offers a restorative experience that
+                    reconnects you with your inner stillness</p>
             </div>
 
-            <div
-                class="bg-lime-50 text-center rounded-lg border-3 border-pink-400 min-w-75 min-h-110 sm:max-w-50 py-5 px-3 space-y-4">
-                <img src="Assets/Massage images/Foot Massage-3.jpg" alt="Foot Massage Benefits"
-                    class="card-img mx-auto border-pink-400 rounded-sm border-3">
-                <h5 class="font-bold text-xl">Enhanced Energy Flow</h5>
-                <hr>
-                <p class="">Based on reflexology principles, it aims to improve energy balance in the body.</p>
+            <div class="space-y-3">
+                <!--
+                <img src="Assets/Massage images/Foot Massage-3.jpg" alt="Foot Massage Benefits" 
+                class="card-img mx-auto rounded-md card-img mx-auto rounded-md">
+                -->
+                <h5 class="font-bold text-lg text-center">Enhanced Energy Flow</h5>
+                <p>Our treatments draw from time-honored reflexology principles to stimulate energy pathways and restore
+                    natural balance within the body. By applying gentle pressure to key reflex zones—especially on the
+                    feet and hands—we activate corresponding organs and systems, encouraging smoother circulation and
+                    revitalized energy flow. This holistic approach helps clear blockages and supports the body's innate
+                    healing processes.</p>
+
+                <p>Clients often report feeling more energized, focused, and emotionally uplifted after a session.
+                    Whether you're experiencing fatigue, sluggishness, or simply seeking a boost in vitality, our
+                    therapy works to harmonize your internal rhythms and leave you feeling recharged from within.</p>
             </div>
 
-            <div
-                class="bg-lime-50 text-center rounded-lg border-3 border-pink-400 min-w-75 min-h-110 sm:max-w-50 py-5 px-3 space-y-4">
-                <img src="Assets/Massage images/Foot Massage-4.jpg" alt="Foot Massage Benefits"
-                    class="card-img mx-auto border-pink-400 rounded-sm border-3">
-                <h5 class="font-bold text-xl">Pain Relief</h5>
-                <hr>
-                <p class="">Can alleviate foot pain, plantar fasciitis, or tired, achy feet.</p>
+            <div class="space-y-3">
+                <!--
+                <img src="Assets/Massage images/Foot Massage-4.jpg" alt="Foot Massage Benefits" 
+                class="card-img mx-auto rounded-md card-img mx-auto rounded-md">
+-->
+                <h5 class="font-bold text-lg text-center">Pain Relief</h5>
+                <p>Our specialized foot therapy is designed to target common sources of discomfort, including foot pain,
+                    plantar fasciitis, and general fatigue. Through rhythmic pressure and gentle stretching techniques,
+                    we help reduce inflammation, improve circulation, and ease tension in the muscles and fascia. This
+                    approach not only soothes tired, achy feet but also supports long-term recovery and mobility.</p>
+
+                <p>Whether you're on your feet all day or dealing with chronic foot issues, our treatment offers a
+                    deeply restorative experience. Clients often leave feeling lighter, more supported, and free from
+                    the nagging pain that disrupts daily life. It’s a simple yet powerful way to step into
+                    comfort—literally.</p>
             </div>
         </div>
     </section>
 
-    <hr>
 
     <!--Health Benefits of Body Massage Section-->
-    <section class="mt-1 px-5 py-3">
-        <h3 class="text-center text-white text-2xl font-bold mb-7">Health benefits of Lotus Bliss Thai Spa Body Massage
+    <section class="py-3 mx-10">
+        <h3 class="text-center text-lg font-bold">Health benefits of Lotus Bliss Thai Spa Body Massage
         </h3>
 
         <!--Cards-->
-        <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mt-10 mb-10 mx-8">
-            <div
-                class="bg-lime-50 text-center rounded-lg border-3 border-pink-400 max-w-75 min-w-75 min-h-110 py-5 px-3 space-y-4">
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 my-3">
+            <div class="space-y-3">
+                <!--
                 <img src="Assets/Massage images/Body Massage-1.jpg" alt="Body Massage Benefits"
                     class="card-img mx-auto border-pink-400 rounded-sm border-3">
-                <h5 class="text-center text-xl font-bold">Stress and Anxiety Reduction</h5>
-                <hr>
-                <p>Stretching techniques improve flexibility and reduce muscle tension.</p>
+                    -->
+                <h5 class="text-center text-lg font-bold">Stress and Anxiety Reduction</h5>
+                <p>Our Thai-inspired stretching techniques go beyond physical relief—they gently guide the body into a
+                    state of deep relaxation and emotional calm. By improving flexibility and releasing muscle tension,
+                    these movements help quiet the mind and ease the grip of stress and anxiety. Each stretch is
+                    performed with mindful care, allowing your body to open up and your breath to deepen naturally.</p>
+                <p>As tension melts away, the nervous system begins to reset, promoting a sense of inner peace and
+                    emotional balance. Clients often describe feeling grounded, lighter, and mentally refreshed after
+                    each session. It’s a holistic way to restore harmony—where physical ease meets emotional clarity.
+                </p>
             </div>
 
-            <div
-                class="bg-lime-50 text-center rounded-lg border-3 border-pink-400 max-w-75 min-w-75 min-h-110 py-5 px-3 space-y-4">
+            <div class="space-y-3">
+                <!--
                 <img src="Assets/Massage images/Body Massage-2.jpg" alt="Body Massage Benefits"
                     class="card-img mx-auto border-pink-400 rounded-sm border-3">
-                <h5 class="text-center text-xl font-bold">Flexibility and Muscle Relief</h5>
-                <hr>
-                <p>Combines acupressure and stretches to calm the mind and body.</p>
+                    -->
+                <h5 class="text-center text-lg font-bold">Flexibility and Muscle Relief</h5>
+                <p>Our signature approach blends traditional acupressure with targeted stretching to unlock deep muscle
+                    relief and restore natural flexibility. By applying gentle pressure along energy lines and guiding
+                    the body through fluid stretches, we release built-up tension and improve joint mobility. This
+                    combination not only soothes sore muscles but also enhances overall range of motion.</p>
+                <p>As the body unwinds, the calming effects ripple through the nervous system—quieting mental chatter
+                    and promoting a sense of inner stillness. It’s a full-body reset that leaves you feeling limber,
+                    relaxed, and reconnected with yourself. Ideal for those seeking both physical recovery and emotional
+                    ease.</p>
             </div>
 
-            <div
-                class="bg-lime-50 text-center rounded-lg border-3 border-pink-400 max-w-75 min-w-75 min-h-110 py-5 px-3 space-y-4">
+            <div class="space-y-3">
+                <!--
                 <img src="Assets/Massage images/Body Massage-3.jpg" alt="Body Massage Benefits"
                     class="card-img mx-auto border-pink-400 rounded-sm border-3">
-                <h5 class="text-center text-xl font-bold">Enhanced Posture and Alignment
+                    -->
+                <h5 class="text-center text-lg font-bold">Enhanced Posture and Alignment
                 </h5>
-                <hr>
-                <p>Helps realign the body, easing joint stress and promoting better posture.</p>
+                <p>Our therapeutic stretches are designed to gently realign the body, easing pressure on joints and
+                    correcting imbalances caused by daily habits or prolonged sitting. By targeting key muscle groups
+                    and encouraging proper spinal alignment, we help restore your natural posture and reduce strain on
+                    the neck, shoulders, and lower back.</p>
+                <p>As alignment improves, movement becomes more fluid and pain-free—allowing you to stand taller,
+                    breathe deeper, and feel more centered. Whether you're recovering from stiffness or simply seeking
+                    better body awareness, this treatment supports long-term posture health and graceful mobility.</p>
             </div>
 
-            <div
-                class="bg-lime-50 text-center rounded-lg border-3 border-pink-400 max-w-75 min-w-75 min-h-110 py-5 px-3 space-y-4">
+            <div class="space-y-3">
+                <!--
                 <img src="Assets/Massage images/Body Massage-4.jpg" alt="Body Massage Benefits"
                     class="card-img mx-auto border-pink-400 rounded-sm border-3">
-                <h5 class="text-center text-xl font-bold">Boosted Energy Levels
+                    -->
+                <h5 class="text-center text-lg font-bold">Boosted Energy Levels
                 </h5>
-                <hr>
-                <p>Increases energy flow through the body’s meridians (energy lines).</p>
+                <p>By stimulating the body’s meridians—its natural energy pathways—our stretch and acupressure
+                    techniques help unblock stagnation and restore vibrant flow. This gentle activation recharges your
+                    system from within, leaving you feeling more awake, refreshed, and ready to take on the day. It’s
+                    like a reset button for both body and mind.</p>
+
+                <p>Clients often report a noticeable lift in mood and stamina after each session, as tension releases
+                    and circulation improves. Whether you're battling fatigue or just need a midday boost, this therapy
+                    offers a natural way to energize without relying on caffeine or quick fixes</p>
             </div>
         </div>
 
     </section>
 
-    <hr>
 
     <!--Spa Locations Section-->
-    <section id="location" class="mt-1 px-5 py-3">
-        <h3 class="text-center text-white text-2xl font-bold mb-6">Locations</h3>
+    <section id="location" class="py-3 mx-10">
+        <h3 class="text-center text-lg font-bold">Locations</h3>
 
         <!--Cards-->
-        <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 mt-10 mb-10 mx-8">
-            <div
-                class="bg-lime-50 text-center rounded-lg border-3 border-pink-400 min-w-70 max-w-80 min-h-95 py-4 px-3 space-y-4">
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-5 my-3">
+            <div class="space-y-3">
+                <!--
                 <img src="Assets/Locations/Mumbai.png" alt="Mumbai locations"
                     class="card-img mx-auto border-pink-400 rounded-sm border-3">
-                <h5 class="text-xl font-bold m-3">Mumbai</h5>
+        -->
+                <h5 class="text-center text-lg font-bold">Mumbai</h5>
+                <p>Discover serenity in the heart of the city with Lotus Bliss locations in Bandra, Shivaji Park, and
+                    Powai. Each spa offers a peaceful escape tailored to the rhythm of Mumbai life.
+                </p>
                 <a href="mumbai.html"><button
-                        class="bg-pink-500 text-white font-bold text-lg py-1 px-4 rounded-lg border-2 border-blue-900 hover:bg-pink-600">Explore</button></a>
+                        class="bg-red-500 hover:bg-red-600 active:bg-red-700 text-white font-bold px-3 py-2 rounded-xl">View
+                        Details</button></a>
             </div>
 
-            <div
-                class="bg-lime-50 text-center rounded-lg border-3 border-pink-400 min-w-70 max-w-80 min-h-95 py-4 px-3 space-y-4">
+            <div class="space-y-3">
+                <!--
                 <img src="Assets/Locations/Pune.png" alt="Pune locations"
                     class="card-img mx-auto border-pink-400 rounded-sm border-3">
-                <h5 class="text-xl font-bold m-3">Pune</h5>
+                    -->
+                <h5 class="text-center text-lg font-bold">Pune</h5>
+                <p>Unwind in Pune’s calm corners—visit us in Koregaon Park, Baner, and Kothrud for a blend of nature,
+                    tradition, and rejuvenation.
+                </p>
                 <a href="pune.html"><button
-                        class="bg-pink-500 text-white font-bold text-lg py-1 px-4 rounded-lg border-2 border-blue-900 hover:bg-pink-600">Explore</button></a>
+                        class="bg-red-500 hover:bg-red-600 active:bg-red-700 text-white font-bold px-3 py-2 rounded-xl">View
+                        Details</button></a>
             </div>
 
-            <div
-                class="bg-lime-50 text-center rounded-lg border-3 border-pink-400 min-w-70 max-w-80 min-h-95 py-4 px-3 space-y-4">
+            <div class="space-y-3">
+                <!--
                 <img src="Assets/Locations/Goa.png" alt="Pune locations"
                     class="card-img mx-auto border-pink-400 rounded-sm border-3">
-                <h5 class="text-xl font-bold m-3">Goa</h5>
+                    -->
+                <h5 class="text-center text-lg font-bold">Goa</h5>
+                <p>Experience beachside bliss at our Goa retreats in Candolim, Palolem, and Anjuna. Perfect for
+                    travelers and locals seeking soulful relaxation.
+                </p>
                 <a href="goa.html"><button
-                        class="bg-pink-500 text-white font-bold text-lg py-1 px-4 rounded-lg border-2 border-blue-900 hover:bg-pink-600">Explore</button></a>
+                        class="bg-red-500 hover:bg-red-600 active:bg-red-700 text-white font-bold px-3 py-2 rounded-xl">View
+                        Details</button></a>
             </div>
         </div>
     </section>
 
     <!--Footer-->
-    <footer class="bg-pink-400 p-5 text-white md:min-h-50">
+    <footer class="bg-red-400 p-5 text-white md:min-h-50">
         <!--Links-->
         <div class="grid grid-cols-2 gap-5 mb-8 mx-15">
             <div class="space-y-2 font-bold">
